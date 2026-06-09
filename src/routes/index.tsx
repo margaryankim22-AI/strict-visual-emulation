@@ -33,12 +33,12 @@ const pillars = [
   { to: "/transparency", titleKey: "pillar.transparency.title", descKey: "pillar.transparency.desc", accent: "purple" },
 ] as const;
 
-const stats = [
+const stats: ReadonlyArray<{ v: string; l: string; a: string; mono?: boolean }> = [
   { v: "stats.citizens.value", l: "stats.citizens.label", a: "red" },
   { v: "stats.budget.value", l: "stats.budget.label", a: "yellow" },
   { v: "stats.reach.value", l: "stats.reach.label", a: "green" },
   { v: "stats.reg.value", l: "stats.reg.label", a: "blue", mono: true },
-] as const;
+];
 
 function Home() {
   const t = useT();
