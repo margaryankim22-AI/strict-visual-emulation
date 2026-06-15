@@ -187,7 +187,7 @@ export const translations = {
   "footer.about": { en: "About", hy: "Մեր մասին" },
   "footer.contactTitle": { en: "Contact", hy: "Կապ" },
   "footer.address": { en: "Kajaran · Syunik Province · Republic of Armenia", hy: "Քաջարան · Սյունիքի մարզ · Հայաստանի Հանրապետություն" },
-  "footer.email": { en: "contact@citadel-ngo.am", hy: "contact@citadel-ngo.am" },
+  "footer.email": { en: "citadellhk@gmail.com", hy: "citadellhk@gmail.com" },
   "footer.linksTitle": { en: "Explore", hy: "Բացահայտել" },
   "footer.rights": { en: "© 2025 Citadel. All rights reserved.", hy: "© 2025 Citadel։ Բոլոր իրավունքները պաշտպանված են։" },
   "footer.regLine": { en: "Reg. 211.171.1446066", hy: "Գրանցում 211.171.1446066" },
