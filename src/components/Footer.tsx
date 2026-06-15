@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <Logo />
             <p className="mt-4 max-w-xs text-sm text-muted-foreground">
-              {t("brand.tagline")} · {t("footer.address")}
+              իրավապաշտպան ՀԿ
             </p>
             <div className="mt-6 flex gap-1.5">
               {["red", "yellow", "green", "blue", "purple"].map((c) => (
