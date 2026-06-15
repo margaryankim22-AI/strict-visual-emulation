@@ -1,16 +1,16 @@
-import logoUrl from "@/assets/citadel-logo.png";
+import logoAsset from "@/assets/citadel-icon.png.asset.json";
 
-// Official Citadel logo. Brand suffix "-իրավապաշտպան ՀԿ" sits beside the mark.
+// Official Citadel mark (icon only). Wordmark "Ցիտադել" sits beside it as plain text.
 export function Logo({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       <img
-        src={logoUrl}
-        alt="Citadel"
-        className="h-10 w-10 shrink-0 object-contain sm:h-11 sm:w-11"
+        src={logoAsset.url}
+        alt="Ցիտադել"
+        className="h-9 w-auto shrink-0 object-contain sm:h-10"
       />
-      <span className="font-display text-sm font-semibold tracking-tight text-foreground sm:text-base">
-        <span className="text-muted-foreground font-normal">-իրավապաշտպան ՀԿ</span>
+      <span className="font-display text-lg font-semibold tracking-tight text-foreground sm:text-xl">
+        Ցիտադել
       </span>
     </div>
   );
