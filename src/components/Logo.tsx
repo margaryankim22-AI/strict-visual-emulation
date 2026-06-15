@@ -1,37 +1,36 @@
-// Stylized "people holding hands" mark using the Citadel accent palette.
-// Brand wordmark "Citadel" is always Latin script in both EN and HY.
+// Institutional shield mark in the Armenian flag palette (red, blue, apricot).
+// Brand wordmark is "Citadel-իրավապաշտպան ՀԿ" — "Citadel" always Latin script.
 export function Logo({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
       <svg
-        width="32"
+        width="28"
         height="32"
-        viewBox="0 0 32 32"
+        viewBox="0 0 28 32"
         fill="none"
         aria-hidden="true"
         className="shrink-0"
       >
-        {/* heads */}
-        <circle cx="6" cy="10" r="2.4" fill="var(--accent-red)" />
-        <circle cx="13" cy="7" r="2.4" fill="var(--accent-yellow)" />
-        <circle cx="19" cy="7" r="2.4" fill="var(--accent-green)" />
-        <circle cx="26" cy="10" r="2.4" fill="var(--accent-purple)" />
-        {/* arched arms = "holding hands" */}
+        <defs>
+          <clipPath id="citadel-shield">
+            <path d="M14 0.5 L26.5 4 V16.5 C26.5 24 21 29.5 14 31.5 C7 29.5 1.5 24 1.5 16.5 V4 Z" />
+          </clipPath>
+        </defs>
+        <g clipPath="url(#citadel-shield)">
+          <rect x="0" y="0"  width="28" height="11"    fill="#D90012" />
+          <rect x="0" y="11" width="28" height="10.5"  fill="#0033A0" />
+          <rect x="0" y="21" width="28" height="11"    fill="#F2A800" />
+        </g>
         <path
-          d="M4 18 Q9 13 13 18 Q16 22 19 18 Q23 13 28 18"
-          stroke="var(--accent-blue)"
-          strokeWidth="2.4"
-          strokeLinecap="round"
+          d="M14 0.5 L26.5 4 V16.5 C26.5 24 21 29.5 14 31.5 C7 29.5 1.5 24 1.5 16.5 V4 Z"
           fill="none"
+          stroke="currentColor"
+          strokeWidth="1.25"
+          className="text-foreground/90"
         />
-        {/* shoulders/bodies */}
-        <rect x="3.6" y="18" width="4.8" height="8" rx="1.5" fill="var(--accent-red)" />
-        <rect x="10.6" y="15" width="4.8" height="11" rx="1.5" fill="var(--accent-yellow)" />
-        <rect x="16.6" y="15" width="4.8" height="11" rx="1.5" fill="var(--accent-green)" />
-        <rect x="23.6" y="18" width="4.8" height="8" rx="1.5" fill="var(--accent-purple)" />
       </svg>
-      <span className="font-display text-xl font-semibold tracking-tight text-foreground">
-        Citadel
+      <span className="font-display text-base font-semibold tracking-tight text-foreground sm:text-lg">
+        Citadel<span className="text-muted-foreground font-normal">-իրավապաշտպան ՀԿ</span>
       </span>
     </div>
   );
