@@ -15,7 +15,7 @@ export const translations = {
 
   // Home — hero
   "home.heroEyebrow": { en: "Citadel — Human Rights NGO, Syunik", hy: "Citadel — Մարդու իրավունքների ՀԿ, Սյունիք" },
-  "home.heroTitle": { en: "Defending Rights.\nAdvancing Justice.", hy: "Պաշտպանել Իրավունքները։\nԱռաջ մղել Արդարությունը։" },
+  "home.heroTitle": { en: "Protecting civil and labor rights in Armenia.", hy: "Քաղաքացիական և աշխատանքային իրավունքների պաշտպանություն Հայաստանում" },
   "home.heroLead": {
     en: "Citadel is an independent legal defense organization protecting the rights of every citizen and community in Armenia's Syunik region.",
     hy: "Citadel-ը անկախ իրավապաշտպան կազմակերպություն է, որը պաշտպանում է Հայաստանի Սյունիքի մարզի յուրաքանչյուր քաղաքացու և համայնքի իրավունքները։",
@@ -34,16 +34,16 @@ export const translations = {
   "stats.reg.label": { en: "State Registration", hy: "Պետական գրանցում" },
 
   // Pillars (5 — one per accent color, link to a section)
-  "pillar.about.title": { en: "Roots & Resilience", hy: "Արմատներ և կայունություն" },
-  "pillar.about.desc": { en: "How a grassroots movement became an institution for justice.", hy: "Ինչպես հասարակական շարժումը դարձավ արդարության ինստիտուտ։" },
-  "pillar.programs.title": { en: "Path of Law", hy: "Իրավունքի ուղի" },
-  "pillar.programs.desc": { en: "Legal defense, civic education, and media advocacy for all.", hy: "Իրավական պաշտպանություն, քաղաքացիական կրթություն և մեդիա ջատագովություն բոլորի համար։" },
-  "pillar.vision.title": { en: "Vision 2030", hy: "Տեսլական 2030" },
-  "pillar.vision.desc": { en: "Our three-point roadmap for a digital and legal shield.", hy: "Թվային և իրավական վահանի մեր եռակետ ճանապարհային քարտեզը։" },
+  "pillar.about.title": { en: "Community foundation & resilience", hy: "Համայնքային հենք և կայունություն" },
+  "pillar.about.desc": { en: "At the core of our work is the empowerment of local communities and workers — for lasting, sustainable change.", hy: "Մեր գործունեության հիմքում տեղական համայնքների և աշխատավորների հզորացումն է՝ հանուն տևական ու կայուն փոփոխությունների։" },
+  "pillar.programs.title": { en: "Path of Law", hy: "Իրավունքի ճանապարհ" },
+  "pillar.programs.desc": { en: "Consistent legal support, defense against unfounded (SLAPP) lawsuits, and restoration of labor rights.", hy: "Հետևողական իրավական աջակցություն, պաշտպանություն անհիմն (SLAPP) դատական հայցերից և աշխատանքային իրավունքների վերականգնում։" },
+  "pillar.vision.title": { en: "Strategic Vision 2030", hy: "Ռազմավարական տեսլական 2030" },
+  "pillar.vision.desc": { en: "Long-term programs and systemic solutions aimed at strengthening civic protection institutions in Armenia.", hy: "Երկարաժամկետ ծրագրեր և համակարգային լուծումներ՝ ուղղված Հայաստանում քաղաքացիական պաշտպանության ինստիտուտների ուժեղացմանը։" },
   "pillar.youth.title": { en: "Rights Ambassadors", hy: "Իրավունքի դեսպաններ" },
-  "pillar.youth.desc": { en: "Empowering young people as the next generation of civic leaders.", hy: "Հզորացնելով երիտասարդներին որպես քաղաքացիական առաջնորդների նոր սերունդ։" },
-  "pillar.transparency.title": { en: "Transparency Hub", hy: "Թափանցիկության հարթակ" },
-  "pillar.transparency.desc": { en: "Open financials, registration, and impact data — fully public.", hy: "Բաց ֆինանսներ, գրանցում և ազդեցության տվյալներ՝ ամբողջությամբ հանրային։" },
+  "pillar.youth.desc": { en: "Educating civic and community activists, raising legal literacy, and building a strong network of rights defenders.", hy: "Քաղաքացիական և համայնքային ակտիվիստների կրթում, իրավագիտության բարձրացում և իրավապաշտպանների հզոր ցանցի ձևավորում։" },
+  "pillar.transparency.title": { en: "Accountability & Impact", hy: "Հաշվետվողականություն և Ազդեցություն" },
+  "pillar.transparency.desc": { en: "Transparent program management, accountability to partners, and real evaluation of the impact of our work.", hy: "Ծրագրերի թափանցիկ կառավարում, հաշվետվողականություն գործընկերներին և իրականացված աշխատանքների իրական ազդեցության գնահատում։" },
 
   // Path of Law featured
   "feature.eyebrow": { en: "Flagship Program", hy: "Հիմնական ծրագիր" },
