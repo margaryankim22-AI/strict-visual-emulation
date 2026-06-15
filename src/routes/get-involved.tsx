@@ -45,7 +45,7 @@ function GetInvolved() {
               <h3 className="mt-6 font-display text-2xl font-semibold">{t(tk)}</h3>
               <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">{t(b)}</p>
               <a
-                href={`mailto:contact@citadel-ngo.am?subject=${encodeURIComponent(subject)}`}
+                href={`mailto:citadellhk@gmail.com?subject=${encodeURIComponent(subject)}`}
                 className="mt-8 inline-flex items-center justify-between rounded-full border border-foreground px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-foreground hover:text-background"
               >
                 {t("involved.cta")}
@@ -64,10 +64,10 @@ function GetInvolved() {
         >
           <p className="font-display text-3xl font-semibold md:text-4xl">{t("brand.tagline")}</p>
           <a
-            href="mailto:contact@citadel-ngo.am"
+            href="mailto:citadellhk@gmail.com"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background"
           >
-            contact@citadel-ngo.am
+            citadellhk@gmail.com
           </a>
         </div>
       </section>
