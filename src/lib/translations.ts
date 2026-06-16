@@ -68,38 +68,87 @@ export const translations = {
   "origin.cta": { en: "Read our full story", hy: "Կարդալ մեր ամբողջ պատմությունը" },
 
   // About page
-  "about.title": { en: "Roots & Resilience", hy: "Արմատներ և կայունություն" },
+  "about.eyebrow": { en: "About Citadel", hy: "Citadel-ի մասին" },
+  "about.title": {
+    en: "The Road from Kajaran: From Protest to Permanent Protection.",
+    hy: "Կաջարանի ճանապարհը. Բողոքից մինչև մշտական պաշտպանություն",
+  },
   "about.lead": {
-    en: "From a single act of solidarity to a permanent legal institution for the people of Syunik.",
-    hy: "Մեկ համերաշխության ակտից մինչև Սյունիքի ժողովրդի համար մշտական իրավական ինստիտուտ։",
+    en: "From an eleven-day strike that exposed the legal vulnerability of 2,600 workers to a permanent legal shield for every community in Syunik.",
+    hy: "Տասնմեկօրյա գործադուլից, որը բացահայտեց 2600 աշխատավորների իրավական խոցելիությունը՝ դեպի մշտական իրավական վահան Սյունիքի յուրաքանչյուր համայնքի համար։",
   },
-  "about.originTitle": { en: "Where it began", hy: "Որտեղից սկսվեց" },
+  "about.cta.help": { en: "Get legal help", hy: "Ստանալ իրավական օգնություն" },
+  "about.cta.reports": { en: "See our reports", hy: "Տեսնել հաշվետվությունները" },
+
+  "about.originEyebrow": { en: "The Catalyst", hy: "Առաջացման պատճառը" },
+  "about.originTitle": {
+    en: "How Citadel was born",
+    hy: "Ինչպես ծնվեց Citadel-ը",
+  },
   "about.originBody": {
-    en: "In February 2025, 2,600 workers at the Zangezur Copper Molybdenum Combine in Kajaran stood together for eleven days to demand dignity, safety, and fair wages. The strike exposed something larger than a single workplace: an entire region without an organized legal shield. Citadel was founded in direct response — not only for miners, but for every citizen of Syunik whose rights had nowhere to turn.",
-    hy: "2025 թվականի փետրվարին Քաջարանի Զանգեզուրի Պղնձամոլիբդենային Կոմբինատի 2,600 աշխատողներ տասնմեկ օր կանգնեցին միասին՝ պահանջելու արժանապատվություն, անվտանգություն և արդար աշխատավարձ։ Գործադուլը բացահայտեց մի բան, որն ավելի մեծ էր, քան մեկ աշխատավայր՝ ամբողջ մարզ՝ առանց կազմակերպված իրավական վահանի։ Citadel-ը հիմնադրվեց որպես ուղղակի պատասխան՝ ոչ միայն հանքափորների, այլ Սյունիքի յուրաքանչյուր քաղաքացու համար, ում իրավունքները պաշտպանող չկար։",
+    en: "In 2025, a historic 11-day strike at ZCMC exposed the legal vulnerability of 2,600 workers. When corporate giants used a AMD 4.7 billion SLAPP lawsuit to silence dissent, Citadel was born as a permanent legal shield.",
+    hy: "2025-ին ԶՊՄԿ-ի 11-օրյա գործադուլը բացահայտեց 2600 աշխատավորների իրավական խոցելիությունը։ Երբ կորպորատիվ հսկաները օգտագործեցին 4,7 միլիարդ դրամի SLAPP հայցը՝ լռեցնելու համար, ծնվեց «Սիտադելը»՝ որպես մշտական իրավական վահան։",
   },
+  "about.slapp.value": { en: "AMD 4.7 B", hy: "4.7 մլրդ ֏" },
+  "about.slapp.label": { en: "SLAPP lawsuit filed to silence workers", hy: "SLAPP հայց՝ ուղղված աշխատավորներին լռեցնելուն" },
+
   "about.missionTitle": { en: "Our mission", hy: "Մեր առաքելությունը" },
   "about.missionBody": {
-    en: "To make professional legal protection an everyday right for the people of Syunik — through advocacy, education, and transparent institutional practice.",
-    hy: "Սյունիքի ժողովրդի համար մասնագիտական իրավական պաշտպանությունը դարձնել առօրյա իրավունք՝ ջատագովության, կրթության և թափանցիկ ինստիտուցիոնալ պրակտիկայի միջոցով։",
+    en: "To bridge the gap between high-level legal reform and grassroots defense, ensuring that corporate accountability is not an option, but a requirement in Syunik.",
+    hy: "Կապել բարձր մակարդակի իրավական բարեփոխումները և համայնքային պաշտպանությունը՝ ապահովելով, որ կորպորատիվ հաշվետվողականությունը Սյունիքում լինի ոչ թե ընտրություն, այլ պահանջ։",
   },
+
   "about.valuesTitle": { en: "What we stand for", hy: "Ինչի համար ենք կանգնած" },
   "about.value1.title": { en: "Dignity", hy: "Արժանապատվություն" },
   "about.value1.body": { en: "Every person deserves to be treated as a full participant in the rule of law.", hy: "Յուրաքանչյուր մարդ արժանի է դիտվել որպես իրավունքի լիիրավ մասնակից։" },
   "about.value2.title": { en: "Evidence", hy: "Փաստ" },
   "about.value2.body": { en: "Our work is grounded in data, documentation, and verified outcomes.", hy: "Մեր աշխատանքը հիմնված է տվյալների, փաստաթղթերի և ստուգված արդյունքների վրա։" },
+  "about.value2.note": {
+    en: "Our monitoring draws on 15+ independent reports on labor safety and environmental risk in Syunik.",
+    hy: "Մեր մոնիթորինգը հիմնված է Սյունիքի աշխատանքի անվտանգության և բնապահպանական ռիսկերի վերաբերյալ 15+ անկախ զեկույցների վրա։",
+  },
   "about.value3.title": { en: "Independence", hy: "Անկախություն" },
   "about.value3.body": { en: "We are accountable to the communities we serve — not to any single donor or interest.", hy: "Մենք հաշվետու ենք այն համայնքներին, որոնց ծառայում ենք՝ ոչ թե որևէ դոնորի կամ շահի։" },
+  "about.value3.note": {
+    en: "We are accountable to the public and undergo an annual independent audit.",
+    hy: "Մենք հաշվետու ենք հասարակությանը և անցնում ենք տարեկան անկախ աուդիտ։",
+  },
+
   "about.teamTitle": { en: "Leadership", hy: "Ղեկավարություն" },
   "about.founder.name": { en: "Shavarsh Margaryan", hy: "Շավարշ Մարգարյան" },
   "about.founder.role": { en: "Founder & Director", hy: "Հիմնադիր և տնօրեն" },
-  "about.founder.bio": { en: "MA in International Relations. Led the 2025 Kajaran labor movement before founding Citadel.", hy: "Միջազգային հարաբերությունների մագիստրոս։ Ղեկավարել է 2025թ. Քաջարանի աշխատավորական շարժումը մինչև Citadel-ի հիմնադրումը։" },
-  "about.team.pm.name": { en: "Project Manager", hy: "Ծրագրի ղեկավար" },
+  "about.founder.bio": {
+    en: "MA in Political Science and International Relations. Led the 2025 Kajaran labor movement before founding Citadel.",
+    hy: "Մագիստրոս քաղաքագիտության և միջազգային հարաբերությունների ոլորտում։ Ղեկավարել է 2025թ. Քաջարանի աշխատավորական շարժումը մինչև Citadel-ի հիմնադրումը։",
+  },
+  "about.team.pm.name": { en: "Program Manager", hy: "Ծրագրի ղեկավար" },
   "about.team.pm.role": { en: "Path of Law", hy: "Իրավունքի ուղի" },
+  "about.team.pm.bio": {
+    en: "Leads legal aid operations and the 24/7 hotline. Expertise in labor law, complaint drafting, and case management.",
+    hy: "Ղեկավարում է իրավական աջակցության գործառույթներն ու 24/7 թեժ գիծը։ Փորձառություն աշխատանքային իրավունքի, բողոքների կազմման և գործերի վարման ոլորտում։",
+  },
   "about.team.coord.name": { en: "Kajaran Coordinator", hy: "Քաջարանի համակարգող" },
   "about.team.coord.role": { en: "Field Operations", hy: "Դաշտային գործողություններ" },
+  "about.team.coord.bio": {
+    en: "Builds direct relationships with workers and community leaders. Skilled in field monitoring, mediation, and rapid response.",
+    hy: "Կառուցում է անմիջական կապեր աշխատավորների և համայնքի առաջնորդների հետ։ Փորձառություն դաշտային մոնիթորինգի, միջնորդության և արագ արձագանքման մեջ։",
+  },
   "about.team.media.name": { en: "Media Lead", hy: "Մեդիա ղեկավար" },
   "about.team.media.role": { en: "Caravan Series", hy: "«Քարավան» շարք" },
+  "about.team.media.bio": {
+    en: "Produces the Caravan series and runs public communications. Expertise in investigative storytelling and digital advocacy.",
+    hy: "Արտադրում է «Քարավան» շարքը և ղեկավարում հանրային հաղորդակցությունը։ Փորձառություն հետաքննական պատմվածքի և թվային ջատագովության մեջ։",
+  },
+
+  "about.trustTitle": { en: "Donors & institutional trust", hy: "Դոնորներ և ինստիտուցիոնալ վստահություն" },
+  "about.trustLead": {
+    en: "Citadel is supported by independent donors and institutional partners. We publish annual audited financials.",
+    hy: "Citadel-ին աջակցում են անկախ դոնորներ և ինստիտուցիոնալ գործընկերներ։ Մենք հրապարակում ենք տարեկան աուդիտի ենթարկված ֆինանսական հաշվետվությունները։",
+  },
+  "about.trust.audit": { en: "Annual independent audit", hy: "Տարեկան անկախ աուդիտ" },
+  "about.trust.registered": { en: "State-registered NGO", hy: "Պետական գրանցում ունեցող ՀԿ" },
+  "about.trust.reports": { en: "Public financial reports", hy: "Հանրային ֆինանսական հաշվետվություններ" },
+  "about.trust.partner": { en: "Partner placeholder", hy: "Գործընկեր (placeholder)" },
 
   // Programs
   "programs.title": { en: "Path of Law", hy: "Իրավունքի ուղի" },
