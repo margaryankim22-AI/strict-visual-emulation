@@ -151,24 +151,12 @@ export const translations = {
   "youth.what.b3": { en: "Earn a certified credential in labor law and digital advocacy.", hy: "Ձեռք բերել հավաստագրված որակավորում աշխատանքային իրավունքի և թվային ջատագովության մեջ։" },
   "youth.cta": { en: "Apply to join", hy: "Դիմել միանալու համար" },
 
-  // Transparency
-  "transparency.title": { en: "Transparency Hub", hy: "Թափանցիկության հարթակ" },
+  // Volunteering
+  "transparency.title": { en: "Volunteering", hy: "Կամավորություն" },
   "transparency.lead": {
-    en: "Citadel publishes its registration, finances, and impact data because trust is a public good.",
-    hy: "Citadel-ը հրապարակում է իր գրանցումը, ֆինանսները և ազդեցության տվյալները, քանի որ վստահությունը հանրային բարիք է։",
+    en: "Volunteering opportunities and open applications will be published here soon.",
+    hy: "Այս էջում շուտով կհրապարակվեն Citadel-ի կամավորական ծրագրերն ու բաց հայտերը։",
   },
-  "transparency.regTitle": { en: "Institutional Registration", hy: "Ինստիտուցիոնալ գրանցում" },
-  "transparency.regBody": { en: "Citadel is a registered non-governmental organization under the laws of the Republic of Armenia.", hy: "Citadel-ը Հայաստանի Հանրապետության օրենքներով գրանցված հասարակական կազմակերպություն է։" },
-  "transparency.regNumber": { en: "Reg. 211.171.1446066", hy: "Գրանցում 211.171.1446066" },
-  "transparency.financialsTitle": { en: "2025 Financial Summary", hy: "2025թ. ֆինանսական ամփոփ" },
-  "transparency.financials.col1": { en: "Allocation", hy: "Բաշխում" },
-  "transparency.financials.col2": { en: "Amount", hy: "Գումար" },
-  "transparency.financials.col3": { en: "Share", hy: "Մասնաբաժին" },
-  "transparency.reportsTitle": { en: "Published reports", hy: "Հրապարակված հաշվետվություններ" },
-  "transparency.reports.annual": { en: "Annual Report 2025", hy: "Տարեկան հաշվետվություն 2025" },
-  "transparency.reports.audit": { en: "Independent Audit 2025", hy: "Անկախ աուդիտ 2025" },
-  "transparency.reports.esc": { en: "ESC Compliance Statement", hy: "ESC համապատասխանության հայտարարություն" },
-  "transparency.reports.coming": { en: "Available on request", hy: "Հասանելի հարցման դեպքում" },
 
   // Get involved
   "involved.title": { en: "Stand with Citadel", hy: "Կանգնեք Citadel-ի կողքին" },
