@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "@tanstack/react-router";
 import { Logo } from "./Logo";
 import { useT } from "@/lib/i18n";
