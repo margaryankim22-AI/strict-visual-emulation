@@ -209,11 +209,11 @@ function About() {
           </div>
 
           <div className="mt-10 grid gap-4 md:grid-cols-3">
-            {[
-              { k: "about.trust.audit", c: "blue" as const },
-              { k: "about.trust.registered", c: "green" as const },
-              { k: "about.trust.reports", c: "yellow" as const },
-            ].map((b) => (
+            {([
+              { k: "about.trust.audit", c: "blue" },
+              { k: "about.trust.registered", c: "green" },
+              { k: "about.trust.reports", c: "yellow" },
+            ] as { k: TKey; c: AccentColor }[]).map((b) => (
               <div
                 key={b.k}
                 className="rounded-2xl border border-border bg-background p-6"
