@@ -11,7 +11,7 @@ const navItems = [
   { to: "/programs", key: "nav.programs" },
   { to: "/vision", key: "nav.vision" },
   { to: "/youth", key: "nav.youth" },
-  { to: "/transparency", key: "nav.transparency" },
+  { to: "/volunteering", key: "nav.transparency" },
 ] as const;
 
 export function Header() {
