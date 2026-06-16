@@ -7,14 +7,15 @@ export const translations = {
   "nav.programs": { en: "Programs", hy: "Ծրագրեր" },
   "nav.vision": { en: "Vision", hy: "Տեսլական" },
   "nav.youth": { en: "Youth", hy: "Երիտասարդություն" },
-  "nav.transparency": { en: "Transparency", hy: "Թափանցիկություն" },
+  "nav.transparency": { en: "Volunteering", hy: "Կամավորություն" },
   "nav.getInvolved": { en: "Get Involved", hy: "Միացե՛ք մեզ" },
 
   // Brand / tagline
   "brand.tagline": { en: "Together for justice", hy: "Միասին՝ հանուն արդարության" },
+  "brand.wordmark": { en: "Citadel", hy: "Ցիտադել" },
 
   // Home — hero
-  "home.heroEyebrow": { en: "Citadel — Human Rights NGO, Syunik", hy: "Citadel — Մարդու իրավունքների ՀԿ, Սյունիք" },
+  "home.heroEyebrow": { en: "CITADEL — HUMAN RIGHTS DEFENDER NGO, SYUNIK", hy: "CITADEL — ԻՐԱՎԱՊԱՇՏՊԱՆ ՀԿ, ՍՅՈՒՆԻՔ" },
   "home.heroTitle": { en: "Protecting civil and labor rights in Armenia.", hy: "Քաղաքացիական և աշխատանքային իրավունքների պաշտպանություն Հայաստանում" },
   "home.heroLead": {
     en: "Citadel is an independent legal defense organization protecting the rights of every citizen and community in Armenia's Syunik region.",
