@@ -10,7 +10,6 @@ const navItems = [
   { to: "/about", key: "nav.about" },
   { to: "/programs", key: "nav.programs" },
   { to: "/vision", key: "nav.vision" },
-  { to: "/youth", key: "nav.youth" },
   { to: "/volunteering", key: "nav.transparency" },
 ] as const;
 

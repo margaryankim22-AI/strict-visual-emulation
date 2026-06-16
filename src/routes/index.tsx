@@ -29,7 +29,6 @@ const pillars = [
   { to: "/about", titleKey: "pillar.about.title", descKey: "pillar.about.desc", accent: "red" },
   { to: "/programs", titleKey: "pillar.programs.title", descKey: "pillar.programs.desc", accent: "blue" },
   { to: "/vision", titleKey: "pillar.vision.title", descKey: "pillar.vision.desc", accent: "yellow" },
-  { to: "/youth", titleKey: "pillar.youth.title", descKey: "pillar.youth.desc", accent: "green" },
   { to: "/volunteering", titleKey: "pillar.transparency.title", descKey: "pillar.transparency.desc", accent: "purple" },
 ] as const;
 
