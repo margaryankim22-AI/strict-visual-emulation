@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useT } from "@/lib/i18n";
+import type { TKey } from "@/lib/translations";
 import { PageHero } from "@/components/PageHero";
 import originImg from "@/assets/about-origin.jpg.asset.json";
 import founderImg from "@/assets/about-founder.jpg.asset.json";
@@ -32,9 +33,9 @@ export const Route = createFileRoute("/about")({
 type AccentColor = "red" | "blue" | "yellow" | "green" | "purple";
 
 const values: {
-  t: string;
-  b: string;
-  note?: string;
+  t: TKey;
+  b: TKey;
+  note?: TKey;
   c: AccentColor;
 }[] = [
   { t: "about.value1.title", b: "about.value1.body", c: "red" },
@@ -43,9 +44,9 @@ const values: {
 ];
 
 const team: {
-  name: string;
-  role: string;
-  bio: string;
+  name: TKey;
+  role: TKey;
+  bio: TKey;
   img: string;
   c: AccentColor;
 }[] = [
