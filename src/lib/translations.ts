@@ -6,7 +6,6 @@ export const translations = {
   "nav.about": { en: "About", hy: "Մեր մասին" },
   "nav.programs": { en: "Programs", hy: "Ծրագրեր" },
   "nav.vision": { en: "Vision", hy: "Տեսլական" },
-  "nav.youth": { en: "Youth", hy: "Երիտասարդություն" },
   "nav.transparency": { en: "Volunteering", hy: "Կամավորություն" },
   "nav.getInvolved": { en: "Get Involved", hy: "Միացե՛ք մեզ" },
 
@@ -41,8 +40,6 @@ export const translations = {
   "pillar.programs.desc": { en: "Consistent legal support, defense against unfounded (SLAPP) lawsuits, and restoration of labor rights.", hy: "Հետևողական իրավական աջակցություն, պաշտպանություն անհիմն (SLAPP) դատական հայցերից և աշխատանքային իրավունքների վերականգնում։" },
   "pillar.vision.title": { en: "Strategic Vision 2030", hy: "Ռազմավարական տեսլական 2030" },
   "pillar.vision.desc": { en: "Long-term programs and systemic solutions aimed at strengthening civic protection institutions in Armenia.", hy: "Երկարաժամկետ ծրագրեր և համակարգային լուծումներ՝ ուղղված Հայաստանում քաղաքացիական պաշտպանության ինստիտուտների ուժեղացմանը։" },
-  "pillar.youth.title": { en: "Rights Ambassadors", hy: "Իրավունքի դեսպաններ" },
-  "pillar.youth.desc": { en: "Educating civic and community activists, raising legal literacy, and building a strong network of rights defenders.", hy: "Քաղաքացիական և համայնքային ակտիվիստների կրթում, իրավագիտության բարձրացում և իրավապաշտպանների հզոր ցանցի ձևավորում։" },
   "pillar.transparency.title": { en: "Accountability & Impact", hy: "Հաշվետվողականություն և Ազդեցություն" },
   "pillar.transparency.desc": { en: "Transparent program management, accountability to partners, and real evaluation of the impact of our work.", hy: "Ծրագրերի թափանցիկ կառավարում, հաշվետվողականություն գործընկերներին և իրականացված աշխատանքների իրական ազդեցության գնահատում։" },
 
@@ -188,17 +185,6 @@ export const translations = {
   "vision.r3.title": { en: "The Syunik Model", hy: "Սյունիքյան մոդելը" },
   "vision.r3.body": { en: "Scaling our framework to Kapan, Sotk, and every community in the Lesser Caucasus.", hy: "Մեր հարթակի ընդլայնում Կապանում, Սոթքում և Փոքր Կովկասի յուրաքանչյուր համայնքում։" },
 
-  // Youth
-  "youth.title": { en: "Become a Rights Ambassador", hy: "Դարձե՛ք իրավունքի դեսպան" },
-  "youth.lead": {
-    en: "Citadel trains young people across Syunik as the next generation of civic leaders — aligned with European Solidarity Corps standards.",
-    hy: "Citadel-ը Սյունիքում պատրաստում է երիտասարդներին որպես քաղաքացիական առաջնորդների նոր սերունդ՝ համահունչ Եվրոպական համերաշխության կորպուսի չափանիշներին։",
-  },
-  "youth.what.title": { en: "What you'll do", hy: "Ինչ կանեք" },
-  "youth.what.b1": { en: "Help neighbors navigate digital labor and civic platforms.", hy: "Օգնել հարևաններին կողմնորոշվել թվային աշխատանքային և քաղաքացիական հարթակներում։" },
-  "youth.what.b2": { en: "Monitor compliance with safety and rights standards in your community.", hy: "Վերահսկել անվտանգության և իրավունքի չափանիշների պահպանումը ձեր համայնքում։" },
-  "youth.what.b3": { en: "Earn a certified credential in labor law and digital advocacy.", hy: "Ձեռք բերել հավաստագրված որակավորում աշխատանքային իրավունքի և թվային ջատագովության մեջ։" },
-  "youth.cta": { en: "Apply to join", hy: "Դիմել միանալու համար" },
 
   // Volunteering
   "transparency.title": { en: "Volunteering", hy: "Կամավորություն" },
