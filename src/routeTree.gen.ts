@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as YouthRouteImport } from './routes/youth'
+import { Route as VolunteeringRouteImport } from './routes/volunteering'
 import { Route as VisionRouteImport } from './routes/vision'
 import { Route as TransparencyRouteImport } from './routes/transparency'
 import { Route as ProgramsRouteImport } from './routes/programs'
@@ -20,6 +21,11 @@ import { Route as IndexRouteImport } from './routes/index'
 const YouthRoute = YouthRouteImport.update({
   id: '/youth',
   path: '/youth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VolunteeringRoute = VolunteeringRouteImport.update({
+  id: '/volunteering',
+  path: '/volunteering',
   getParentRoute: () => rootRouteImport,
 } as any)
 const VisionRoute = VisionRouteImport.update({
@@ -60,6 +66,7 @@ export interface FileRoutesByFullPath {
   '/programs': typeof ProgramsRoute
   '/transparency': typeof TransparencyRoute
   '/vision': typeof VisionRoute
+  '/volunteering': typeof VolunteeringRoute
   '/youth': typeof YouthRoute
 }
 export interface FileRoutesByTo {
@@ -69,6 +76,7 @@ export interface FileRoutesByTo {
   '/programs': typeof ProgramsRoute
   '/transparency': typeof TransparencyRoute
   '/vision': typeof VisionRoute
+  '/volunteering': typeof VolunteeringRoute
   '/youth': typeof YouthRoute
 }
 export interface FileRoutesById {
@@ -79,6 +87,7 @@ export interface FileRoutesById {
   '/programs': typeof ProgramsRoute
   '/transparency': typeof TransparencyRoute
   '/vision': typeof VisionRoute
+  '/volunteering': typeof VolunteeringRoute
   '/youth': typeof YouthRoute
 }
 export interface FileRouteTypes {
@@ -90,6 +99,7 @@ export interface FileRouteTypes {
     | '/programs'
     | '/transparency'
     | '/vision'
+    | '/volunteering'
     | '/youth'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -99,6 +109,7 @@ export interface FileRouteTypes {
     | '/programs'
     | '/transparency'
     | '/vision'
+    | '/volunteering'
     | '/youth'
   id:
     | '__root__'
@@ -108,6 +119,7 @@ export interface FileRouteTypes {
     | '/programs'
     | '/transparency'
     | '/vision'
+    | '/volunteering'
     | '/youth'
   fileRoutesById: FileRoutesById
 }
@@ -118,6 +130,7 @@ export interface RootRouteChildren {
   ProgramsRoute: typeof ProgramsRoute
   TransparencyRoute: typeof TransparencyRoute
   VisionRoute: typeof VisionRoute
+  VolunteeringRoute: typeof VolunteeringRoute
   YouthRoute: typeof YouthRoute
 }
 
@@ -128,6 +141,13 @@ declare module '@tanstack/react-router' {
       path: '/youth'
       fullPath: '/youth'
       preLoaderRoute: typeof YouthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/volunteering': {
+      id: '/volunteering'
+      path: '/volunteering'
+      fullPath: '/volunteering'
+      preLoaderRoute: typeof VolunteeringRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/vision': {
@@ -182,6 +202,7 @@ const rootRouteChildren: RootRouteChildren = {
   ProgramsRoute: ProgramsRoute,
   TransparencyRoute: TransparencyRoute,
   VisionRoute: VisionRoute,
+  VolunteeringRoute: VolunteeringRoute,
   YouthRoute: YouthRoute,
 }
 export const routeTree = rootRouteImport
