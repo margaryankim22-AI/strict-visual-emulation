@@ -131,25 +131,18 @@ function About() {
           <h2 className="font-display text-3xl font-semibold md:text-4xl">
             {t("about.valuesTitle")}
           </h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
             {values.map((v) => (
               <div
                 key={v.t}
-                className="flex flex-col rounded-2xl border border-border bg-background p-8"
+                className="flex h-full flex-col rounded-2xl border border-border bg-background p-8"
               >
                 <span
                   className="block h-1.5 w-10 rounded-full"
                   style={{ backgroundColor: `var(--accent-${v.c})` }}
                 />
                 <h3 className="mt-5 font-display text-2xl font-semibold">{t(v.t)}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{t(v.b)}</p>
-                {v.note && (
-                  <p
-                    className="mt-5 border-t border-border pt-4 text-xs leading-relaxed text-foreground"
-                  >
-                    {t(v.note)}
-                  </p>
-                )}
+                <p className="mt-3 text-base leading-relaxed text-muted-foreground">{t(v.b)}</p>
               </div>
             ))}
           </div>
