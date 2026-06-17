@@ -35,12 +35,10 @@ type AccentColor = "red" | "blue" | "yellow" | "green" | "purple";
 const values: {
   t: TKey;
   b: TKey;
-  note?: TKey;
   c: AccentColor;
 }[] = [
   { t: "about.value1.title", b: "about.value1.body", c: "red" },
-  { t: "about.value2.title", b: "about.value2.body", note: "about.value2.note", c: "blue" },
-  { t: "about.value3.title", b: "about.value3.body", note: "about.value3.note", c: "green" },
+  { t: "about.value3.title", b: "about.value3.body", c: "green" },
 ];
 
 const team: {
@@ -75,16 +73,11 @@ function About() {
       <section className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-5">
-            <div className="overflow-hidden rounded-2xl border border-border">
-              <img
-                src={originImg.url}
-                alt="Workers and community members standing together in Kajaran, Syunik"
-                width={1024}
-                height={1024}
-                loading="lazy"
-                className="h-full w-full object-cover"
-              />
-            </div>
+            <div
+              className="aspect-square w-full overflow-hidden rounded-2xl border border-dashed border-border bg-surface"
+              role="img"
+              aria-label="Image placeholder"
+            />
           </div>
           <div className="lg:col-span-7">
             <div className="mb-5 flex items-center gap-3">
@@ -138,25 +131,18 @@ function About() {
           <h2 className="font-display text-3xl font-semibold md:text-4xl">
             {t("about.valuesTitle")}
           </h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <div className="mt-10 grid gap-6 md:grid-cols-2">
             {values.map((v) => (
               <div
                 key={v.t}
-                className="flex flex-col rounded-2xl border border-border bg-background p-8"
+                className="flex h-full flex-col rounded-2xl border border-border bg-background p-8"
               >
                 <span
                   className="block h-1.5 w-10 rounded-full"
                   style={{ backgroundColor: `var(--accent-${v.c})` }}
                 />
                 <h3 className="mt-5 font-display text-2xl font-semibold">{t(v.t)}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{t(v.b)}</p>
-                {v.note && (
-                  <p
-                    className="mt-5 border-t border-border pt-4 text-xs leading-relaxed text-foreground"
-                  >
-                    {t(v.note)}
-                  </p>
-                )}
+                <p className="mt-3 text-base leading-relaxed text-muted-foreground">{t(v.b)}</p>
               </div>
             ))}
           </div>
