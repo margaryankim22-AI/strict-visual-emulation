@@ -25,9 +25,10 @@ function Volunteering() {
   const t = useT();
   return (
     <PageHero
+      eyebrow={t("transparency.eyebrow")}
       title={t("transparency.title")}
       lead={t("transparency.lead")}
-      accent="purple"
+      accent="green"
     />
   );
 }

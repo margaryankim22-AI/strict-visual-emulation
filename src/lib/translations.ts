@@ -183,6 +183,7 @@ export const translations = {
 
 
   // Volunteering
+  "transparency.eyebrow": { en: "JOIN OUR MISSION", hy: "ՄԻԱՑԵ՛Ք ՄԵՐ ԱՌԱՔԵԼՈՒԹՅԱՆԸ" },
   "transparency.title": { en: "Volunteering", hy: "Կամավորություն" },
   "transparency.lead": {
     en: "Volunteering opportunities and open applications will be published here soon.",
