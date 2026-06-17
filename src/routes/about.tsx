@@ -1,3 +1,6 @@
+/** @jsxRuntime classic */
+import React from "react";
+
 // Fallback stub for createFileRoute when @tanstack/react-router types/module
 // are not available in the environment (fixes TS2307 during type-checking).
 // In the real app this will be replaced by the actual package at runtime.
