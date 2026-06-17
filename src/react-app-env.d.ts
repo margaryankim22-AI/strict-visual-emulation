@@ -27,6 +27,16 @@ declare module '*?url' {
   export default src;
 }
 
+declare module '@/styles.css?url' {
+  const src: string;
+  export default src;
+}
+
+declare module '../styles.css?url' {
+  const src: string;
+  export default src;
+}
+
 declare global {
   namespace JSX {
     interface IntrinsicElements {
