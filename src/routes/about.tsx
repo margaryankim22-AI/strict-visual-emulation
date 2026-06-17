@@ -73,16 +73,11 @@ function About() {
       <section className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-5">
-            <div className="overflow-hidden rounded-2xl border border-border">
-              <img
-                src={originImg.url}
-                alt="Workers and community members standing together in Kajaran, Syunik"
-                width={1024}
-                height={1024}
-                loading="lazy"
-                className="h-full w-full object-cover"
-              />
-            </div>
+            <div
+              className="aspect-square w-full overflow-hidden rounded-2xl border border-dashed border-border bg-surface"
+              role="img"
+              aria-label="Image placeholder"
+            />
           </div>
           <div className="lg:col-span-7">
             <div className="mb-5 flex items-center gap-3">
