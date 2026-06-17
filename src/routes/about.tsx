@@ -35,12 +35,10 @@ type AccentColor = "red" | "blue" | "yellow" | "green" | "purple";
 const values: {
   t: TKey;
   b: TKey;
-  note?: TKey;
   c: AccentColor;
 }[] = [
   { t: "about.value1.title", b: "about.value1.body", c: "red" },
-  { t: "about.value2.title", b: "about.value2.body", note: "about.value2.note", c: "blue" },
-  { t: "about.value3.title", b: "about.value3.body", note: "about.value3.note", c: "green" },
+  { t: "about.value3.title", b: "about.value3.body", c: "green" },
 ];
 
 const team: {
