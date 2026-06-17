@@ -95,20 +95,16 @@ export const translations = {
     hy: "Կապել բարձր մակարդակի իրավական բարեփոխումները և համայնքային պաշտպանությունը՝ ապահովելով, որ կորպորատիվ հաշվետվողականությունը Սյունիքում լինի ոչ թե ընտրություն, այլ պահանջ։",
   },
 
-  "about.valuesTitle": { en: "What we stand for", hy: "Ինչի համար ենք կանգնած" },
-  "about.value1.title": { en: "Dignity", hy: "Արժանապատվություն" },
-  "about.value1.body": { en: "Every person deserves to be treated as a full participant in the rule of law.", hy: "Յուրաքանչյուր մարդ արժանի է դիտվել որպես իրավունքի լիիրավ մասնակից։" },
-  "about.value2.title": { en: "Evidence", hy: "Փաստ" },
-  "about.value2.body": { en: "Our work is grounded in data, documentation, and verified outcomes.", hy: "Մեր աշխատանքը հիմնված է տվյալների, փաստաթղթերի և ստուգված արդյունքների վրա։" },
-  "about.value2.note": {
-    en: "Our monitoring draws on 15+ independent reports on labor safety and environmental risk in Syunik.",
-    hy: "Մեր մոնիթորինգը հիմնված է Սյունիքի աշխատանքի անվտանգության և բնապահպանական ռիսկերի վերաբերյալ 15+ անկախ զեկույցների վրա։",
+  "about.valuesTitle": { en: "Our values and goals", hy: "Մեր արժեքներն ու նպատակները" },
+  "about.value1.title": { en: "Mission", hy: "Առաքելություն" },
+  "about.value1.body": {
+    en: "To protect human rights, support vulnerable groups, and contribute to the development of a just, equal, and democratic society.",
+    hy: "Պաշտպանել մարդու իրավունքները, աջակցել խոցելի խմբերին և նպաստել արդար, հավասար ու ժողովրդավարական հասարակության զարգացմանը։",
   },
-  "about.value3.title": { en: "Independence", hy: "Անկախություն" },
-  "about.value3.body": { en: "We are accountable to the communities we serve — not to any single donor or interest.", hy: "Մենք հաշվետու ենք այն համայնքներին, որոնց ծառայում ենք՝ ոչ թե որևէ դոնորի կամ շահի։" },
-  "about.value3.note": {
-    en: "We are accountable to the public and undergo an annual independent audit.",
-    hy: "Մենք հաշվետու ենք հասարակությանը և անցնում ենք տարեկան անկախ աուդիտ։",
+  "about.value3.title": { en: "Our principles", hy: "Մեր սկզբունքները" },
+  "about.value3.body": {
+    en: "We are guided by the principles of equality, independence, transparency, and respect for human dignity, contributing to the building of a just and inclusive society.",
+    hy: "Մենք առաջնորդվում ենք հավասարության, անկախության, թափանցիկության և մարդու արժանապատվության նկատմամբ հարգանքի սկզբունքներով՝ նպաստելով արդար և ներառական հասարակության կառուցմանը։",
   },
 
   "about.teamTitle": { en: "Leadership", hy: "Ղեկավարություն" },
