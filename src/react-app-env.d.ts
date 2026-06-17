@@ -17,6 +17,16 @@ declare module '@tanstack/react-router' {
   export default any;
 }
 
+declare module '*.css?url' {
+  const src: string;
+  export default src;
+}
+
+declare module '*?url' {
+  const src: string;
+  export default src;
+}
+
 declare global {
   namespace JSX {
     interface IntrinsicElements {
