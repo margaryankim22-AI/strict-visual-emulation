@@ -1,4 +1,4 @@
-// Bilingual dictionary. Brand "Citadel" is ALWAYS kept in Latin script in both languages.
+// Bilingual dictionary. Brand: "Citadel" in English, «Ցիտադել» in Armenian.
 export type Lang = "en" | "hy";
 
 export const translations = {
@@ -14,11 +14,11 @@ export const translations = {
   "brand.wordmark": { en: "Citadel", hy: "Ցիտադել" },
 
   // Home — hero
-  "home.heroEyebrow": { en: "CITADEL — HUMAN RIGHTS DEFENDER NGO, SYUNIK", hy: "CITADEL — ԻՐԱՎԱՊԱՇՏՊԱՆ ՀԿ, ՍՅՈՒՆԻՔ" },
+  "home.heroEyebrow": { en: "CITADEL — HUMAN RIGHTS DEFENDER NGO, SYUNIK", hy: "ՑԻՏԱԴԵԼ — ԻՐԱՎԱՊԱՇՏՊԱՆ ՀԿ, ՍՅՈՒՆԻՔ" },
   "home.heroTitle": { en: "Protecting civil and labor rights in Armenia.", hy: "Քաղաքացիական և աշխատանքային իրավունքների պաշտպանություն Հայաստանում" },
   "home.heroLead": {
     en: "Citadel is an independent legal defense organization protecting the rights of every citizen and community in Armenia's Syunik region.",
-    hy: "Citadel-ը անկախ իրավապաշտպան կազմակերպություն է, որը պաշտպանում է Հայաստանի Սյունիքի մարզի յուրաքանչյուր քաղաքացու և համայնքի իրավունքները։",
+    hy: "«Ցիտադել»-ը անկախ իրավապաշտպան կազմակերպություն է, որը պաշտպանում է Հայաստանի Սյունիքի մարզի յուրաքանչյուր քաղաքացու և համայնքի իրավունքները։",
   },
   "home.heroCtaPrimary": { en: "Explore Our Programs", hy: "Տեսնել մեր ծրագրերը" },
   "home.heroCtaSecondary": { en: "Read Our Story", hy: "Կարդալ մեր պատմությունը" },
@@ -60,12 +60,12 @@ export const translations = {
   "origin.title": { en: "Forged in solidarity. Built for everyone.", hy: "Կոփված համերաշխությամբ։ Կառուցված բոլորի համար։" },
   "origin.body": {
     en: "Citadel was founded by Shavarsh Margaryan in the wake of the 2025 Kajaran labor movement — but our mandate extends to every resident, family, and community in Syunik. We exist to make legal protection ordinary, not exceptional.",
-    hy: "Citadel-ը հիմնադրվել է Շավարշ Մարգարյանի կողմից՝ 2025 թվականի Քաջարանի աշխատավորական շարժման հետևանքով, սակայն մեր առաքելությունը տարածվում է Սյունիքի յուրաքանչյուր բնակչի, ընտանիքի և համայնքի վրա։ Մենք գոյություն ունենք, որպեսզի իրավական պաշտպանությունը դառնա սովորական, ոչ թե բացառիկ։",
+    hy: "«Ցիտադել»-ը հիմնադրվել է Շավարշ Մարգարյանի կողմից՝ 2025 թվականի Քաջարանի աշխատավորական շարժման հետևանքով, սակայն մեր առաքելությունը տարածվում է Սյունիքի յուրաքանչյուր բնակչի, ընտանիքի և համայնքի վրա։ Մենք գոյություն ունենք, որպեսզի իրավական պաշտպանությունը դառնա սովորական, ոչ թե բացառիկ։",
   },
   "origin.cta": { en: "Read our full story", hy: "Կարդալ մեր ամբողջ պատմությունը" },
 
   // About page
-  "about.eyebrow": { en: "About Citadel", hy: "Citadel-ի մասին" },
+  "about.eyebrow": { en: "About Citadel", hy: "«Ցիտադել»-ի մասին" },
   "about.title": {
     en: "The Road from Kajaran: From Protest to Permanent Protection.",
     hy: "Կաջարանի ճանապարհը. Բողոքից մինչև մշտական պաշտպանություն",
@@ -111,7 +111,7 @@ export const translations = {
   "about.founder.role": { en: "Founder & Director", hy: "Հիմնադիր և տնօրեն" },
   "about.founder.bio": {
     en: "MA in Political Science and International Relations. Led the 2025 Kajaran labor movement before founding Citadel.",
-    hy: "Մագիստրոս քաղաքագիտության և միջազգային հարաբերությունների ոլորտում։ Ղեկավարել է 2025թ. Քաջարանի աշխատավորական շարժումը մինչև Citadel-ի հիմնադրումը։",
+    hy: "Մագիստրոս քաղաքագիտության և միջազգային հարաբերությունների ոլորտում։ Ղեկավարել է 2025թ. Քաջարանի աշխատավորական շարժումը մինչև «Ցիտադել»-ի հիմնադրումը։",
   },
   "about.team.pm.name": { en: "Program Manager", hy: "Ծրագրի ղեկավար" },
   "about.team.pm.role": { en: "Path of Law", hy: "Իրավունքի ուղի" },
@@ -135,7 +135,7 @@ export const translations = {
   "about.trustTitle": { en: "Donors & institutional trust", hy: "Դոնորներ և ինստիտուցիոնալ վստահություն" },
   "about.trustLead": {
     en: "Citadel is supported by independent donors and institutional partners. We publish annual audited financials.",
-    hy: "Citadel-ին աջակցում են անկախ դոնորներ և ինստիտուցիոնալ գործընկերներ։ Մենք հրապարակում ենք տարեկան աուդիտի ենթարկված ֆինանսական հաշվետվությունները։",
+    hy: "«Ցիտադել»-ին աջակցում են անկախ դոնորներ և ինստիտուցիոնալ գործընկերներ։ Մենք հրապարակում ենք տարեկան աուդիտի ենթարկված ֆինանսական հաշվետվությունները։",
   },
   "about.trust.audit": { en: "Annual independent audit", hy: "Տարեկան անկախ աուդիտ" },
   "about.trust.registered": { en: "State-registered NGO", hy: "Պետական գրանցում ունեցող ՀԿ" },
@@ -146,7 +146,7 @@ export const translations = {
   "programs.title": { en: "Path of Law", hy: "Իրավունքի ուղի" },
   "programs.lead": {
     en: "Citadel's flagship program: a comprehensive legal infrastructure for the people of Syunik.",
-    hy: "Citadel-ի հիմնական ծրագիրը՝ համապարփակ իրավական ենթակառուցվածք Սյունիքի ժողովրդի համար։",
+    hy: "«Ցիտադել»-ի հիմնական ծրագիրը՝ համապարփակ իրավական ենթակառուցվածք Սյունիքի ժողովրդի համար։",
   },
   "programs.s1.title": { en: "Legal Hotline & Support Hub", hy: "Իրավական թեժ գիծ և աջակցության կենտրոն" },
   "programs.s1.body": { en: "A virtual ATS system providing uninterrupted access to legal experts for real-time crisis response.", hy: "Վիրտուալ ATS համակարգ, որն ապահովում է անխափան հասանելիություն իրավաբան-փորձագետներին։" },
@@ -164,7 +164,7 @@ export const translations = {
   "programs.lawNoteTitle": { en: "Ready for the 2026 Labor Law transition", hy: "Պատրաստ 2026թ. աշխատանքային օրենքի անցմանը" },
   "programs.lawNoteBody": {
     en: "As Armenia moves to digital labor procedures, Citadel ensures that the end of paper acts does not become the exploitation of digitally marginalized workers.",
-    hy: "Քանի որ Հայաստանն անցում է կատարում թվային աշխատանքային ընթացակարգերի, Citadel-ն ապահովում է, որ թղթային ակտերի վերացումը չդառնա թվային առումով խոցելի աշխատողների շահագործում։",
+    hy: "Քանի որ Հայաստանն անցում է կատարում թվային աշխատանքային ընթացակարգերի, «Ցիտադել»-ն ապահովում է, որ թղթային ակտերի վերացումը չդառնա թվային առումով խոցելի աշխատողների շահագործում։",
   },
 
   // Vision
@@ -186,11 +186,11 @@ export const translations = {
   "transparency.title": { en: "Volunteering", hy: "Կամավորություն" },
   "transparency.lead": {
     en: "Volunteering opportunities and open applications will be published here soon.",
-    hy: "Այս էջում շուտով կհրապարակվեն Citadel-ի կամավորական ծրագրերն ու բաց հայտերը։",
+    hy: "Այս էջում շուտով կհրապարակվեն «Ցիտադել»-ի կամավորական ծրագրերն ու բաց հայտերը։",
   },
 
   // Get involved
-  "involved.title": { en: "Stand with Citadel", hy: "Կանգնեք Citadel-ի կողքին" },
+  "involved.title": { en: "Stand with Citadel", hy: "Կանգնեք «Ցիտադել»-ի կողքին" },
   "involved.lead": {
     en: "Three ways to defend rights and advance justice in Syunik — choose where you fit.",
     hy: "Սյունիքում իրավունքները պաշտպանելու և արդարությունն առաջ մղելու երեք ճանապարհ՝ ընտրեք ձերը։",
@@ -209,7 +209,7 @@ export const translations = {
   "footer.address": { en: "Kajaran · Syunik Province · Republic of Armenia", hy: "Քաջարան · Սյունիքի մարզ · Հայաստանի Հանրապետություն" },
   "footer.email": { en: "citadellhk@gmail.com", hy: "citadellhk@gmail.com" },
   "footer.linksTitle": { en: "Explore", hy: "Բացահայտել" },
-  "footer.rights": { en: "© 2025 Citadel. All rights reserved.", hy: "© 2025 Citadel։ Բոլոր իրավունքները պաշտպանված են։" },
+  "footer.rights": { en: "© 2025 Citadel. All rights reserved.", hy: "© 2025 «Ցիտադել»։ Բոլոր իրավունքները պաշտպանված են։" },
   "footer.regLine": { en: "Reg. 211.171.1446066", hy: "Գրանցում 211.171.1446066" },
 
   // Common
