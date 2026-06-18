@@ -190,7 +190,7 @@ export const translations = {
   },
 
   // Get involved
-  "involved.title": { en: "Stand with Citadel", hy: "Կանգնեք Citadel-ի կողքին" },
+  "involved.title": { en: "Stand with Citadel", hy: "Կանգնեք «Ցիտադել»-ի կողքին" },
   "involved.lead": {
     en: "Three ways to defend rights and advance justice in Syunik — choose where you fit.",
     hy: "Սյունիքում իրավունքները պաշտպանելու և արդարությունն առաջ մղելու երեք ճանապարհ՝ ընտրեք ձերը։",
