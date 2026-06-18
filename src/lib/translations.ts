@@ -135,7 +135,7 @@ export const translations = {
   "about.trustTitle": { en: "Donors & institutional trust", hy: "Դոնորներ և ինստիտուցիոնալ վստահություն" },
   "about.trustLead": {
     en: "Citadel is supported by independent donors and institutional partners. We publish annual audited financials.",
-    hy: "Citadel-ին աջակցում են անկախ դոնորներ և ինստիտուցիոնալ գործընկերներ։ Մենք հրապարակում ենք տարեկան աուդիտի ենթարկված ֆինանսական հաշվետվությունները։",
+    hy: "«Ցիտադել»-ին աջակցում են անկախ դոնորներ և ինստիտուցիոնալ գործընկերներ։ Մենք հրապարակում ենք տարեկան աուդիտի ենթարկված ֆինանսական հաշվետվությունները։",
   },
   "about.trust.audit": { en: "Annual independent audit", hy: "Տարեկան անկախ աուդիտ" },
   "about.trust.registered": { en: "State-registered NGO", hy: "Պետական գրանցում ունեցող ՀԿ" },
