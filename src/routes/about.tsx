@@ -1,10 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
 /** @jsxRuntime automatic */
-
-// Fallback stub for createFileRoute when @tanstack/react-router types/module
-// are not available in the environment (fixes TS2307 during type-checking).
-// In the real app this will be replaced by the actual package at runtime.
-const createFileRoute = (path: string) => (opts: any) => opts;
 import { useT } from "@/lib/i18n";
 import type { TKey } from "@/lib/translations";
 import { PageHero } from "@/components/PageHero";
