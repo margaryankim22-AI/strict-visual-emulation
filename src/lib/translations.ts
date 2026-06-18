@@ -164,7 +164,7 @@ export const translations = {
   "programs.lawNoteTitle": { en: "Ready for the 2026 Labor Law transition", hy: "Պատրաստ 2026թ. աշխատանքային օրենքի անցմանը" },
   "programs.lawNoteBody": {
     en: "As Armenia moves to digital labor procedures, Citadel ensures that the end of paper acts does not become the exploitation of digitally marginalized workers.",
-    hy: "Քանի որ Հայաստանն անցում է կատարում թվային աշխատանքային ընթացակարգերի, Citadel-ն ապահովում է, որ թղթային ակտերի վերացումը չդառնա թվային առումով խոցելի աշխատողների շահագործում։",
+    hy: "Քանի որ Հայաստանն անցում է կատարում թվային աշխատանքային ընթացակարգերի, «Ցիտադել»-ն ապահովում է, որ թղթային ակտերի վերացումը չդառնա թվային առումով խոցելի աշխատողների շահագործում։",
   },
 
   // Vision
