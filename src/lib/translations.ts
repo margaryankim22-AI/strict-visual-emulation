@@ -1,4 +1,4 @@
-// Bilingual dictionary. Brand "Citadel" is ALWAYS kept in Latin script in both languages.
+// Bilingual dictionary. Brand: "Citadel" in English, «Ցիտադել» in Armenian.
 export type Lang = "en" | "hy";
 
 export const translations = {
