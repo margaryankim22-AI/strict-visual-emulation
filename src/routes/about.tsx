@@ -16,13 +16,13 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "The Road from Kajaran: how an 11-day strike and a AMD 4.7B SLAPP lawsuit gave rise to Citadel — a permanent legal shield for Syunik.",
+          "The Road from Kajaran: how a local labor movement gave rise to Citadel — a permanent legal shield for Syunik.",
       },
       { property: "og:title", content: "About Citadel — From Protest to Permanent Protection" },
       {
         property: "og:description",
         content:
-          "How an 11-day strike and a AMD 4.7B SLAPP lawsuit gave rise to a permanent legal institution for Syunik.",
+          "How the 2025 Kajaran labor movement gave rise to a permanent legal institution for Syunik.",
       },
       { property: "og:image", content: originImg.url },
       { name: "twitter:image", content: originImg.url },
@@ -101,20 +101,6 @@ function About() {
               {t("about.originBody")}
             </p>
 
-            <div
-              className="mt-8 rounded-2xl border border-border bg-surface p-6"
-              style={{ borderLeft: "4px solid var(--accent-red)" }}
-            >
-              <div
-                className="font-display text-4xl font-semibold tracking-tight md:text-5xl"
-                style={{ color: "var(--accent-red)" }}
-              >
-                {t("about.slapp.value")}
-              </div>
-              <p className="mt-2 text-sm font-medium text-foreground">
-                {t("about.slapp.label")}
-              </p>
-            </div>
 
             <h2 className="mt-12 font-display text-3xl font-semibold md:text-4xl">
               {t("about.missionTitle")}

@@ -71,8 +71,8 @@ export const translations = {
     hy: "Կաջարանի ճանապարհը. Բողոքից մինչև մշտական պաշտպանություն",
   },
   "about.lead": {
-    en: "From an eleven-day strike that exposed the legal vulnerability of 2,600 workers to a permanent legal shield for every community in Syunik.",
-    hy: "Տասնմեկօրյա գործադուլից, որը բացահայտեց 2600 աշխատավորների իրավական խոցելիությունը՝ դեպի մշտական իրավական վահան Սյունիքի յուրաքանչյուր համայնքի համար։",
+    en: "From a strike that exposed the legal vulnerability of workers to a permanent legal shield for every community in Syunik.",
+    hy: "Գործադուլից, որը բացահայտեց աշխատավորների իրավական խոցելիությունը՝ դեպի մշտական իրավական վահան Սյունիքի յուրաքանչյուր համայնքի համար:",
   },
   "about.cta.help": { en: "Get legal help", hy: "Ստանալ իրավական օգնություն" },
   "about.cta.reports": { en: "See our reports", hy: "Տեսնել հաշվետվությունները" },
@@ -80,14 +80,13 @@ export const translations = {
   "about.originEyebrow": { en: "The Catalyst", hy: "Առաջացման պատճառը" },
   "about.originTitle": {
     en: "How Citadel was born",
-    hy: "Ինչպես ծնվեց Citadel-ը",
+    hy: "Ինչպես ծնվեց «Ցիտադել»-ը",
   },
   "about.originBody": {
-    en: "In 2025, a historic 11-day strike at ZCMC exposed the legal vulnerability of 2,600 workers. When corporate giants used a AMD 4.7 billion SLAPP lawsuit to silence dissent, Citadel was born as a permanent legal shield.",
-    hy: "2025-ին ԶՊՄԿ-ի 11-օրյա գործադուլը բացահայտեց 2600 աշխատավորների իրավական խոցելիությունը։ Երբ կորպորատիվ հսկաները օգտագործեցին 4,7 միլիարդ դրամի SLAPP հայցը՝ լռեցնելու համար, ծնվեց «Սիտադելը»՝ որպես մշտական իրավական վահան։",
+    en: "In 2025, a strike in Kajaran aimed at improving labor conditions became the turning point that united civic activists. This local movement clearly demonstrated the need for systemic legal protection, leading to the founding of the «Ցիտադել» public organization as a permanent shield for the rights of citizens and workers.",
+    hy: "2025 թվականին Քաջարանում տեղի ունեցած աշխատանքային պայմանների բարելավմանն ուղղված գործադուլը դարձավ այն շրջադարձային կետը, որը միավորեց քաղաքացիական ակտիվիստներին: Տեղական այդ շարժումը հստակ ցույց տվեց համակարգային իրավական պաշտպանության անհրաժեշտությունը, ինչի արդյունքում էլ հիմնադրվեց «Ցիտադել» հասարակական կազմակերպությունը՝ որպես քաղաքացիների և աշխատավորների իրավունքների մշտական վահան:",
   },
-  "about.slapp.value": { en: "AMD 4.7 B", hy: "4.7 մլրդ ֏" },
-  "about.slapp.label": { en: "SLAPP lawsuit filed to silence workers", hy: "SLAPP հայց՝ ուղղված աշխատավորներին լռեցնելուն" },
+
 
   "about.missionTitle": { en: "Our mission", hy: "Մեր առաքելությունը" },
   "about.missionBody": {
