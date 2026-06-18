@@ -186,7 +186,7 @@ export const translations = {
   "transparency.title": { en: "Volunteering", hy: "Կամավորություն" },
   "transparency.lead": {
     en: "Volunteering opportunities and open applications will be published here soon.",
-    hy: "Այս էջում շուտով կհրապարակվեն Citadel-ի կամավորական ծրագրերն ու բաց հայտերը։",
+    hy: "Այս էջում շուտով կհրապարակվեն «Ցիտադել»-ի կամավորական ծրագրերն ու բաց հայտերը։",
   },
 
   // Get involved
