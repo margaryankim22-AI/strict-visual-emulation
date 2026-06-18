@@ -111,7 +111,7 @@ export const translations = {
   "about.founder.role": { en: "Founder & Director", hy: "Հիմնադիր և տնօրեն" },
   "about.founder.bio": {
     en: "MA in Political Science and International Relations. Led the 2025 Kajaran labor movement before founding Citadel.",
-    hy: "Մագիստրոս քաղաքագիտության և միջազգային հարաբերությունների ոլորտում։ Ղեկավարել է 2025թ. Քաջարանի աշխատավորական շարժումը մինչև Citadel-ի հիմնադրումը։",
+    hy: "Մագիստրոս քաղաքագիտության և միջազգային հարաբերությունների ոլորտում։ Ղեկավարել է 2025թ. Քաջարանի աշխատավորական շարժումը մինչև «Ցիտադել»-ի հիմնադրումը։",
   },
   "about.team.pm.name": { en: "Program Manager", hy: "Ծրագրի ղեկավար" },
   "about.team.pm.role": { en: "Path of Law", hy: "Իրավունքի ուղի" },
