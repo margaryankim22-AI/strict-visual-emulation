@@ -1,3 +1,4 @@
+import { createFileRoute } from '@tanstack/react-router'
 /** @jsxRuntime automatic */
 
 // Fallback stub for createFileRoute when @tanstack/react-router types/module
