@@ -18,7 +18,7 @@ export const translations = {
   "home.heroTitle": { en: "Protecting civil and labor rights in Armenia.", hy: "Քաղաքացիական և աշխատանքային իրավունքների պաշտպանություն Հայաստանում" },
   "home.heroLead": {
     en: "Citadel is an independent legal defense organization protecting the rights of every citizen and community in Armenia's Syunik region.",
-    hy: "Citadel-ը անկախ իրավապաշտպան կազմակերպություն է, որը պաշտպանում է Հայաստանի Սյունիքի մարզի յուրաքանչյուր քաղաքացու և համայնքի իրավունքները։",
+    hy: "«Ցիտադել»-ը անկախ իրավապաշտպան կազմակերպություն է, որը պաշտպանում է Հայաստանի Սյունիքի մարզի յուրաքանչյուր քաղաքացու և համայնքի իրավունքները։",
   },
   "home.heroCtaPrimary": { en: "Explore Our Programs", hy: "Տեսնել մեր ծրագրերը" },
   "home.heroCtaSecondary": { en: "Read Our Story", hy: "Կարդալ մեր պատմությունը" },
