@@ -146,7 +146,7 @@ export const translations = {
   "programs.title": { en: "Path of Law", hy: "Իրավունքի ուղի" },
   "programs.lead": {
     en: "Citadel's flagship program: a comprehensive legal infrastructure for the people of Syunik.",
-    hy: "Citadel-ի հիմնական ծրագիրը՝ համապարփակ իրավական ենթակառուցվածք Սյունիքի ժողովրդի համար։",
+    hy: "«Ցիտադել»-ի հիմնական ծրագիրը՝ համապարփակ իրավական ենթակառուցվածք Սյունիքի ժողովրդի համար։",
   },
   "programs.s1.title": { en: "Legal Hotline & Support Hub", hy: "Իրավական թեժ գիծ և աջակցության կենտրոն" },
   "programs.s1.body": { en: "A virtual ATS system providing uninterrupted access to legal experts for real-time crisis response.", hy: "Վիրտուալ ATS համակարգ, որն ապահովում է անխափան հասանելիություն իրավաբան-փորձագետներին։" },
