@@ -14,7 +14,7 @@ export const translations = {
   "brand.wordmark": { en: "Citadel", hy: "Ցիտադել" },
 
   // Home — hero
-  "home.heroEyebrow": { en: "CITADEL — HUMAN RIGHTS DEFENDER NGO, SYUNIK", hy: "CITADEL — ԻՐԱՎԱՊԱՇՏՊԱՆ ՀԿ, ՍՅՈՒՆԻՔ" },
+  "home.heroEyebrow": { en: "CITADEL — HUMAN RIGHTS DEFENDER NGO, SYUNIK", hy: "ՑԻՏԱԴԵԼ — ԻՐԱՎԱՊԱՇՏՊԱՆ ՀԿ, ՍՅՈՒՆԻՔ" },
   "home.heroTitle": { en: "Protecting civil and labor rights in Armenia.", hy: "Քաղաքացիական և աշխատանքային իրավունքների պաշտպանություն Հայաստանում" },
   "home.heroLead": {
     en: "Citadel is an independent legal defense organization protecting the rights of every citizen and community in Armenia's Syunik region.",
