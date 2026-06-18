@@ -101,20 +101,6 @@ function About() {
               {t("about.originBody")}
             </p>
 
-            <div
-              className="mt-8 rounded-2xl border border-border bg-surface p-6"
-              style={{ borderLeft: "4px solid var(--accent-red)" }}
-            >
-              <div
-                className="font-display text-4xl font-semibold tracking-tight md:text-5xl"
-                style={{ color: "var(--accent-red)" }}
-              >
-                {t("about.slapp.value")}
-              </div>
-              <p className="mt-2 text-sm font-medium text-foreground">
-                {t("about.slapp.label")}
-              </p>
-            </div>
 
             <h2 className="mt-12 font-display text-3xl font-semibold md:text-4xl">
               {t("about.missionTitle")}
