@@ -16,13 +16,13 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "The Road from Kajaran: how an 11-day strike and a AMD 4.7B SLAPP lawsuit gave rise to Citadel — a permanent legal shield for Syunik.",
+          "The Road from Kajaran: how a local labor movement gave rise to Citadel — a permanent legal shield for Syunik.",
       },
       { property: "og:title", content: "About Citadel — From Protest to Permanent Protection" },
       {
         property: "og:description",
         content:
-          "How an 11-day strike and a AMD 4.7B SLAPP lawsuit gave rise to a permanent legal institution for Syunik.",
+          "How the 2025 Kajaran labor movement gave rise to a permanent legal institution for Syunik.",
       },
       { property: "og:image", content: originImg.url },
       { name: "twitter:image", content: originImg.url },
