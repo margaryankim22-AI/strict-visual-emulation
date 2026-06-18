@@ -1,10 +1,8 @@
-/** @jsxRuntime classic */
-import React from "react";
+import { createFileRoute } from "@tanstack/react-router";
 import { useT } from "@/lib/i18n";
 import { PageHero } from "@/components/PageHero";
 
-export const Route = {
-  path: "/volunteering",
+export const Route = createFileRoute("/volunteering")({
   head: () => ({
     meta: [
       { title: "Volunteering — Citadel" },
@@ -21,7 +19,8 @@ export const Route = {
     ],
   }),
   component: Volunteering,
-};
+});
+
 
 function Volunteering() {
   const t = useT();
