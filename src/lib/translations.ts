@@ -60,7 +60,7 @@ export const translations = {
   "origin.title": { en: "Forged in solidarity. Built for everyone.", hy: "Կոփված համերաշխությամբ։ Կառուցված բոլորի համար։" },
   "origin.body": {
     en: "Citadel was founded by Shavarsh Margaryan in the wake of the 2025 Kajaran labor movement — but our mandate extends to every resident, family, and community in Syunik. We exist to make legal protection ordinary, not exceptional.",
-    hy: "Citadel-ը հիմնադրվել է Շավարշ Մարգարյանի կողմից՝ 2025 թվականի Քաջարանի աշխատավորական շարժման հետևանքով, սակայն մեր առաքելությունը տարածվում է Սյունիքի յուրաքանչյուր բնակչի, ընտանիքի և համայնքի վրա։ Մենք գոյություն ունենք, որպեսզի իրավական պաշտպանությունը դառնա սովորական, ոչ թե բացառիկ։",
+    hy: "«Ցիտադել»-ը հիմնադրվել է Շավարշ Մարգարյանի կողմից՝ 2025 թվականի Քաջարանի աշխատավորական շարժման հետևանքով, սակայն մեր առաքելությունը տարածվում է Սյունիքի յուրաքանչյուր բնակչի, ընտանիքի և համայնքի վրա։ Մենք գոյություն ունենք, որպեսզի իրավական պաշտպանությունը դառնա սովորական, ոչ թե բացառիկ։",
   },
   "origin.cta": { en: "Read our full story", hy: "Կարդալ մեր ամբողջ պատմությունը" },
 
