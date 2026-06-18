@@ -65,7 +65,7 @@ export const translations = {
   "origin.cta": { en: "Read our full story", hy: "Կարդալ մեր ամբողջ պատմությունը" },
 
   // About page
-  "about.eyebrow": { en: "About Citadel", hy: "Citadel-ի մասին" },
+  "about.eyebrow": { en: "About Citadel", hy: "«Ցիտադել»-ի մասին" },
   "about.title": {
     en: "The Road from Kajaran: From Protest to Permanent Protection.",
     hy: "Կաջարանի ճանապարհը. Բողոքից մինչև մշտական պաշտպանություն",
